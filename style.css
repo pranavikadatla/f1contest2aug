@@ -1,5 +1,50 @@
 *{
-    background-color: blue;
-    color:white;
     font-size:20px;
 }
+body{
+    margin: 0;
+}
+.navbar{
+    background-color: black;
+    color:aliceblue;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.sticky{
+    position:fixed;
+    top:0;
+    width:100%;
+}
+.books-register span{
+     margin-right: 10px;
+}
+.library{
+    margin-left: 10px;
+}
+form{
+    margin-top: 10px;
+    margin-left: 35%;
+    
+}
+table{
+    margin-top: 10px;
+}
+table, th, td {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  #books{
+     margin-top: 50px;
+  }
+  td div{
+     border: 1px solid black;
+  }
+  a{
+    color:white;
+    text-decoration: none;
+  }
+  input{
+    margin-bottom: 5px;
+  }

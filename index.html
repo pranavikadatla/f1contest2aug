@@ -7,38 +7,110 @@
     <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
-    <form action="#" method="post" align="center">
-        <div>
-        <label> First name</label>
+    <nav class="navbar sticky">  
+        <div class="library">LIBRARY</div>
+        <div class="books-register"><span><a href="#books">BOOKS</a> </span> <span><a href="#register">REGISTER</a></span>   </div> 
+    </nav>
+    <h1 id="books" align="center">BOOKS</h1>
+<table align="center">
+    <tr>
+        <th>Book Id</th>
+        <th> Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Availability</th>
+
+    </tr>
+    <tr>
+        <td>1</td>
+        <td><div><b><u>Flower of Evil</u></b></div>
+            <div>Publication Date:2019</div>
+            <div> page count:2000</div>
+            <div> ISBN:12345</div>
+            
+        </td>
+        <td>Pranavika</td>
+        <td>Suspense</td>
+        <td>available</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td><div><b><u>The Heirs</u></b></div>
+            <div>Publication Date:2016</div>
+            <div> page count:2200</div>
+            <div> ISBN:125</div>
+            
+        </td>
+        <td>Anurag</td>
+        <td>Romance,Comedy</td>
+        <td>available</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td><div><b><u>Hwarang</u></b></div>
+            <div>Publication Date:2000</div>
+            <div> page count:1900</div>
+            <div> ISBN:345</div>
+            
+        </td>
+        <td>Mounika</td>
+        <td>Hstorical</td>
+        <td>available</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td><div><b><u>Boys Over Flowers</u></b></div>
+            <div>Publication Date:2012</div>
+            <div> page count:2500</div>
+            <div> ISBN:8765</div>
+            
+        </td>
+        <td>Anusha</td>
+        <td>School Drama</td>
+        <td>available</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td><div><b><u>Descendants Of  The Sun</u></b></div>
+            <div>Publication Date:2006</div>
+            <div> page count:3000</div>
+            <div> ISBN:1234567</div>
+            
+        </td>
+        <td>Sudhikisha</td>
+        <td>Military</td>
+        <td>available</td>
+    </tr>
+    
+</table>
+   <h1 id="register" align="center">REGISTER</h1>
+    <form action="#" method="post">
+        
+        <label> First name</label><br>
         <input type ="text" name="firstname" placeholder="sachin" required> <br>
-        </div>
-        <div>
-        <label> Last name</label>
+    
+        <label> Last name</label><br>
         <input type="text" name="lastname" placeholder="tendulukar" required><br>
-        </div>
-        <div>
-        <label>Email</label>
+        
+        <label>Email</label><br>
         <input type="email" name="email" placeholder="abc@gmail.com" required><br>
-        </div>
-        <div>
-        <label>Date of Birth</label>
+        
+        <label>Date of Birth</label><br>
         <input type="date" name="dateofbirth" required><br>
-        </div>
-        <div>
-        <label>age</label>
+        
+        <label>Age</label><br>
         <input type="number" name="number" min="5" max="100" required><br>
-        </div>
-        <div>
-        <label>Password</label>
+    
+        <label>Password</label><br>
         <input type="password" name="password" required><br>
-        </div>
-        <div>
-        <label>confirm password</label>
-        <input type="password" name="password" required>
-            </div>
-            <div>
+    
+        <label>Confirm Password</label><br>
+        <input type="password" name="password" required><br>
+            
+            
                 <input type="button" value="submit">
-            </div>
+            
     </form>
+
 </body>
 </html>
